@@ -1,0 +1,17 @@
+# === Packages principaux ===
+flask==2.3.2          # Framework web principal
+pandas==2.0.3         # Analyse de données (pour votre DataFrame)
+wordcloud==1.9.2      # Génération de nuages de mots
+
+# === Dépendances critiques ===
+matplotlib==3.7.2     # Visualisation (avec backend 'Agg')
+numpy==1.24.3         # Requis par pandas et matplotlib
+pillow==10.0.0        # Traitement d'images pour wordcloud
+
+# === Pour le déploiement ===
+gunicorn==20.1.0      # Serveur WSGI pour Render
+python-dotenv==1.0.0  # Gestion des variables d'environnement
+
+# === Options supplémentaires ===
+# psycopg2-binary==2.9.6  # Décommentez si vous utilisez PostgreSQL
+# scikit-learn==1.3.0     # Décommentez pour le NLP (si categorie_bert est utilisé)
