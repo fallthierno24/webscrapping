@@ -1,0 +1,41 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    margin-bottom: 20px;
+    height: 100%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.card-header {
+    background-color: #0d6efd;
+    color: white;
+    font-weight: bold;
+}
+
+.chart-container {
+    position: relative;
+    height: 250px;
+    width: 100%;
+}
+
+.form-select {
+    cursor: pointer;
+}
+
+.badge {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+#wordcloud-container {
+    text-align: center;
+    padding: 10px;
+}
